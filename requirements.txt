@@ -1,0 +1,8 @@
+datasets
+matplotlib
+nbformat
+pandas
+reportlab
+scikit-learn
+seaborn
+sentencepiece

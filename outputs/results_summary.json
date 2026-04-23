@@ -1,0 +1,45 @@
+{
+  "project_title": "Multilingual Tokenization",
+  "languages": {
+    "en": "English",
+    "tr": "Turkish",
+    "sw": "Swahili",
+    "am": "Amharic"
+  },
+  "train_size_per_language": 3000,
+  "tokenizer_vocab_size": 800,
+  "summary": [
+    {
+      "language": "Amharic",
+      "best_tokenizer": "bpe",
+      "best_macro_f1": 0.6433585941936398,
+      "word_macro_f1": 0.5672780029594798,
+      "bpe_macro_f1": 0.6433585941936398,
+      "unigram_macro_f1": 0.6328438837701267
+    },
+    {
+      "language": "English",
+      "best_tokenizer": "unigram",
+      "best_macro_f1": 0.7117551096826152,
+      "word_macro_f1": 0.6830255332637699,
+      "bpe_macro_f1": 0.7036322480904024,
+      "unigram_macro_f1": 0.7117551096826152
+    },
+    {
+      "language": "Swahili",
+      "best_tokenizer": "unigram",
+      "best_macro_f1": 0.7086732540266814,
+      "word_macro_f1": 0.6724546332345805,
+      "bpe_macro_f1": 0.6971092879908594,
+      "unigram_macro_f1": 0.7086732540266814
+    },
+    {
+      "language": "Turkish",
+      "best_tokenizer": "bpe",
+      "best_macro_f1": 0.6945048627737439,
+      "word_macro_f1": 0.5965190967554914,
+      "bpe_macro_f1": 0.6945048627737439,
+      "unigram_macro_f1": 0.6667741047688183
+    }
+  ]
+}
