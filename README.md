@@ -61,3 +61,5 @@ python run_case_study.py
 ```
 
 The command regenerates all metrics, tokenizers, and figures.
+
+If you just want to inspect the project interactively, open `notebooks/multilingual_tokenization_case_study.ipynb` and run the cells in order.
